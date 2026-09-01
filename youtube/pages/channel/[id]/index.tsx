@@ -3,7 +3,7 @@
 import ChannelHeader from "@/components/ChannelHeader";
 import Channeltabs from "@/components/Channeltabs";
 import ChannelVideos from "@/components/ChannelVideos";
-import VideoUploader from "@/components/VideoUploader";
+import VideoUploader from "@/components/videouploader";
 import { useUser } from "@/lib/AuthContent";
 
 import { useRouter } from "next/router";
