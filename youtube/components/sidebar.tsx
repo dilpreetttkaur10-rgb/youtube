@@ -13,7 +13,7 @@ import {
 import Link from "next/link";
 import React, { use, useState } from "react";
 import { Button } from "./ui/button";
-import Channeldialogue from "./ChannelDialogue";
+import Channeldialogue from "./channeldialogue";
 import { useUser } from "../lib/AuthContent";
 
 const Sidebar = () => {

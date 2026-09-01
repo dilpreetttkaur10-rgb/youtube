@@ -16,7 +16,7 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import Channeldialogue from "./ChannelDialogue";
+import Channeldialogue from "./channeldialogue";
 
 import { useRouter } from "next/navigation";
 import { useUser } from "@/lib/AuthContent";
