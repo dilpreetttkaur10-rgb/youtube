@@ -1,3 +1,6 @@
+"use client";
+
+
 import {
   Home,
   Compass,
@@ -8,9 +11,9 @@ import {
   User,
 } from "lucide-react";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { use, useState } from "react";
 import { Button } from "./ui/button";
-import Channeldialogue from "./channeldialogue";
+import Channeldialogue from "./ChannelDialogue";
 import { useUser } from "../lib/AuthContent";
 
 const Sidebar = () => {

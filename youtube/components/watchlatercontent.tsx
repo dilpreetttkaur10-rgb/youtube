@@ -13,7 +13,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import axiosInstance from "@/lib/axiosinstance";
-import { useUser } from "@/lib/AuthContext";
+import { useUser } from "@/lib/AuthContent";
 
 export default function WatchLaterContent() {
   const [watchLater, setWatchLater] = useState<any[]>([]);
@@ -117,7 +117,7 @@ export default function WatchLaterContent() {
             </div>
 
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
+              <DropdownMenuTrigger >
                 <Button
                   variant="ghost"
                   size="icon"

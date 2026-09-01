@@ -10,7 +10,7 @@ import {
   ThumbsUp,
 } from "lucide-react";
 import { formatDistanceToNow } from "date-fns";
-import { useUser } from "@/lib/AuthContext";
+import { useUser } from "@/lib/AuthContent";
 import axiosInstance from "@/lib/axiosinstance";
 
 const VideoInfo = ({ video }: any) => {

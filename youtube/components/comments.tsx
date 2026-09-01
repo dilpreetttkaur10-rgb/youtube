@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { Textarea } from "./ui/textarea";
 import { Button } from "./ui/button";
 import { formatDistanceToNow } from "date-fns";
-import { useUser } from "@/lib/AuthContext";
+import { useUser } from "@/lib/AuthContent";
 import axiosInstance from "@/lib/axiosinstance";
 interface Comment {
   _id: string;

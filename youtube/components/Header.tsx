@@ -1,3 +1,5 @@
+
+"use client";
 import { Bell, Menu, Mic, Search, User, VideoIcon } from "lucide-react";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
@@ -11,7 +13,7 @@ import {
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import Channeldialogue from "./channeldialogue";
+import Channeldialogue from "./ChannelDialogue";
 
 import { useRouter } from "next/navigation";
 import { useUser } from "@/lib/AuthContent";

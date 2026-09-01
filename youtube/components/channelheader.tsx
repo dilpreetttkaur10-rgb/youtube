@@ -1,4 +1,6 @@
+"use client";
 import React, { useState } from "react";
+
 import { Avatar, AvatarFallback } from "./ui/avatar";
 import { Button } from "./ui/button";
 

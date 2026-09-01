@@ -12,7 +12,7 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useUser } from "@/lib/AuthContext";
+import { useUser } from "@/lib/AuthContent";
 import axiosInstance from "@/lib/axiosinstance";
 
 export default function LikedVideosContent() {
@@ -118,7 +118,7 @@ export default function LikedVideosContent() {
             </div>
 
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
+              <DropdownMenuTrigger>
                 <Button
                   variant="ghost"
                   size="icon"
