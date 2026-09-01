@@ -88,7 +88,7 @@ const Header = () => {
               <Bell className="w-6 h-6" />
             </Button>
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
+              <DropdownMenuTrigger>
                 <Button
                   variant="ghost"
                   className="relative h-8 w-8 rounded-full"
@@ -99,9 +99,9 @@ const Header = () => {
                   </Avatar>
                 </Button>
               </DropdownMenuTrigger>
-              <DropdownMenuContent className="w-56" align="end" forceMount>
+              <DropdownMenuContent className="w-56" align="end" >
                 {user?.channelname ? (
-                  <DropdownMenuItem asChild>
+                  <DropdownMenuItem>
                     <Link href={`/channel/${user?._id}`}>Your channel</Link>
                   </DropdownMenuItem>
                 ) : (
@@ -116,13 +116,13 @@ const Header = () => {
                     </Button>
                   </div>
                 )}
-                <DropdownMenuItem asChild>
+                <DropdownMenuItem >
                   <Link href="/history">History</Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem asChild>
+                <DropdownMenuItem >
                   <Link href="/liked">Liked videos</Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem asChild>
+                <DropdownMenuItem>
                   <Link href="/watch-later">Watch later</Link>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />

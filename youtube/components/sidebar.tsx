@@ -11,7 +11,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { Button } from "./ui/button";
 import Channeldialogue from "./channeldialogue";
-import { useUser } from "../lib/AuthContext";
+import { useUser } from "../lib/AuthContent";
 
 const Sidebar = () => {
   const { user } = useUser();

@@ -13,7 +13,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import axiosInstance from "@/lib/axiosinstance";
-import { useUser } from "@/lib/AuthContext";
+import { useUser } from "@/lib/AuthContent";
 
 export default function HistoryContent() {
   const [history, setHistory] = useState<any[]>([]);
@@ -115,7 +115,7 @@ export default function HistoryContent() {
             </div>
 
             <DropdownMenu>
-              <DropdownMenuTrigger asChild>
+              <DropdownMenuTrigger>
                 <Button
                   variant="ghost"
                   size="icon"

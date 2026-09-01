@@ -5,7 +5,7 @@ import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Progress } from "./ui/progress";
-import axiosInstance from "../lib/axiosinstance";
+import axiosInstance from "@/lib/axiosinstance";
 
 const VideoUploader = ({ channelId, channelName }: any) => {
   const [isUploading, setIsUploading] = useState(false);
