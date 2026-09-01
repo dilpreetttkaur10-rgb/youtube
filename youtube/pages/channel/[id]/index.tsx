@@ -1,8 +1,9 @@
 "use client";
-import ChannelHeader from "@/components/channelheader";
-import Channeltabs from "@/components/channeltabs";
-import ChannelVideos from "@/components/channelvideos";
-import VideoUploader from "@/components/videouploader";
+
+   import ChannelHeader from "@/components/ChannelHeader";
+   import Channeltabs from "@/components/Channeltabs";
+   import ChannelVideos from "@/components/ChannelVideos";
+   import VideoUploader from "@/components/VideoUploader";
 import { useUser } from "@/lib/AuthContent";
 
 import { useRouter } from "next/router";

@@ -1,6 +1,6 @@
 
 
-import SearchResult from "@/components/searchresult";
+import SearchResult from "@/components/SearchResult";
 import { useRouter } from "next/router";
 import React, { Suspense } from "react";
 
