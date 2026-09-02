@@ -1,6 +1,5 @@
-
-import CategoryTabs from "@/components/ui/categorytab";
 import Videogrid from "@/components/videogrid";
+import CategoryTabs from "@/components/ui/categorytab";
 import { Suspense } from "react";
 
 export default function Home() {
